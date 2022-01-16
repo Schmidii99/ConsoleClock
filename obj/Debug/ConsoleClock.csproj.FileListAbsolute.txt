@@ -1,0 +1,7 @@
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\bin\Debug\ConsoleClock.exe.config
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\bin\Debug\ConsoleClock.exe
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\bin\Debug\ConsoleClock.pdb
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\obj\Debug\ConsoleClock.csproj.AssemblyReference.cache
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\obj\Debug\ConsoleClock.csproj.CoreCompileInputs.cache
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\obj\Debug\ConsoleClock.exe
+C:\Users\melon\Desktop\C# during Quarantäne 2022\ConsoleClock\obj\Debug\ConsoleClock.pdb
