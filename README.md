@@ -7,3 +7,5 @@ The convert-time function converts a String that contains numbers and a semi-col
 
 The draw function can draw as many of the predefined clusters next to each other as you want as well as all the digits and semi-colons of course.
 For a new Line you need to call the draw function again to "draw" in a new Line.
+
+The main loop is the Main function obviously.
