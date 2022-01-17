@@ -26,6 +26,6 @@ namespace ConsoleClock
         public static List<List<int>> DIGIT_EIGHT = new List<List<int>> { ALL_FILLED, DOUBLE_DOT, ALL_FILLED, DOUBLE_DOT, ALL_FILLED};
         public static List<List<int>> DIGIT_NINE = new List<List<int>> { ALL_FILLED, DOUBLE_DOT, ALL_FILLED, DOT_RIGHT, ALL_FILLED };
 
-        public static List<List<int>> SEMI_COLUMN = new List<List<int>> {ALL_EMPTY, DOT_MIDDLE, ALL_EMPTY, DOT_MIDDLE, ALL_EMPTY };
+        public static List<List<int>> SEMI_COLON = new List<List<int>> {ALL_EMPTY, DOT_MIDDLE, ALL_EMPTY, DOT_MIDDLE, ALL_EMPTY };
     }
 }

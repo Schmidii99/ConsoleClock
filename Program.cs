@@ -62,59 +62,59 @@ namespace ConsoleClock
                         }
                         Console.Write("    "); // Space between digits
                     }
-                    Console.WriteLine("");
+                    Console.WriteLine(""); // Line break
                 }
-                counter += 1;
+                counter++;
             }
         }
 
         private static List<List<List<int>>> convert_time(string time)
         {
-            List<List<List<int>>> data_in_right_format = new List<List<List<int>>>();
+            List<List<List<int>>> formatted_data = new List<List<List<int>>>();
 
             foreach (char c in time)
             {
                 switch (c)
                 {
                     case '0':
-                        data_in_right_format.Add(Components.DIGIT_ZERO);
+                        formatted_data.Add(Components.DIGIT_ZERO);
                         break;
                     case '1':
-                        data_in_right_format.Add(Components.DIGIT_ONE);
+                        formatted_data.Add(Components.DIGIT_ONE);
                         break;
                     case '2':
-                        data_in_right_format.Add(Components.DIGIT_TWO);
+                        formatted_data.Add(Components.DIGIT_TWO);
                         break;
                     case '3':
-                        data_in_right_format.Add(Components.DIGIT_THREE);
+                        formatted_data.Add(Components.DIGIT_THREE);
                         break;
                     case '4':
-                        data_in_right_format.Add(Components.DIGIT_FOUR);
+                        formatted_data.Add(Components.DIGIT_FOUR);
                         break;
                     case '5':
-                        data_in_right_format.Add(Components.DIGIT_FIVE);
+                        formatted_data.Add(Components.DIGIT_FIVE);
                         break;
                     case '6':
-                        data_in_right_format.Add(Components.DIGIT_SIX);
+                        formatted_data.Add(Components.DIGIT_SIX);
                         break;
                     case '7':
-                        data_in_right_format.Add(Components.DIGIT_SEVEN);
+                        formatted_data.Add(Components.DIGIT_SEVEN);
                         break;
                     case '8':
-                        data_in_right_format.Add(Components.DIGIT_EIGHT);
+                        formatted_data.Add(Components.DIGIT_EIGHT);
                         break;
                     case '9':
-                        data_in_right_format.Add(Components.DIGIT_NINE);
+                        formatted_data.Add(Components.DIGIT_NINE);
                         break;
                     case ':':
-                        data_in_right_format.Add(Components.SEMI_COLUMN);
+                        formatted_data.Add(Components.SEMI_COLON);
                         break;
                     default:
                         Console.WriteLine("Something Went Wrong!");
-                        return data_in_right_format;
+                        return formatted_data;
                 }
             }
-            return data_in_right_format;
+            return formatted_data;
         }
     }
 }
