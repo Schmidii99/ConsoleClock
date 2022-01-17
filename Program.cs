@@ -8,25 +8,24 @@ namespace ConsoleClock
 {
     class Program
     {
-        private static int clock_size = 7;
+        private static int clock_size = 4;
+        private static string time_format = "HH:mm:ss";
 
         static void Main(string[] args)
         {
+            string previous = DateTime.Now.ToString(time_format);
+
             while (true)
             {
-                Console.Clear();
+                if (previous != DateTime.Now.ToString(time_format))
+                {
+                    previous = DateTime.Now.ToString(time_format);
 
+                    Console.Clear();
 
-                //Example 1:
-                draw(convert_time(DateTime.Now.ToString("HH:mm")));
-
-                //Example 2:
-                // draw(convert_time(DateTime.Now.ToString("HH:mm:ss")));
-
-                System.Threading.Thread.Sleep(1000);
+                    draw(convert_time(DateTime.Now.ToString(time_format)));
+                }
             }
-
-            Console.ReadLine();
         }
 
         private static void draw(List<List<List<int>>> data_array)
